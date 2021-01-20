@@ -1,0 +1,19 @@
+{
+  "name": "box-take-home-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Box-Internship-Assignment/box-take-home-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Box-Internship-Assignment/box-take-home-javascript/issues"
+  },
+  "homepage": "https://github.com/Box-Internship-Assignment/box-take-home-javascript#readme"
+}
