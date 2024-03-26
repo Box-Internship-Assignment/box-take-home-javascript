@@ -13,9 +13,9 @@ module.exports = {
 			line = lines.shift().trim();
 		}
 		line = lines.shift().trim();
-		const upperCaptures = line.slice(1, -1).split(' ').filter(function (x) { x.length > 0 });
+		const upperCaptures = line.slice(1, -1).split(' ').filter(function (x) { return x.length > 0 });
 		line = lines.shift().trim();
-		const lowerCaptures = line.slice(1, -1).split(' ').filter(function (x) { x.length > 0 });
+		const lowerCaptures = line.slice(1, -1).split(' ').filter(function (x) {return x.length > 0 });
 		line = lines.shift().trim();
 		line = lines.shift().trim();
 		const moves = [];
