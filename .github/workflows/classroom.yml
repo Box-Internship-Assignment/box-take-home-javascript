@@ -10,5 +10,12 @@
         steps:
           - name: Checkout code
             uses: actions/checkout@v2
+          - name: Install expect
+            run: |
+              sudo apt-get update
+              sudo apt-get install expect -y
           - name: Run tests
             uses: education/autograding@v1
+          - name: Run interactive mode and verify output
+            run: |
+              bash test_runners/interactive-test-runner.sh

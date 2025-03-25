@@ -79,6 +79,13 @@ The test runner and test cases can be found in the `test_runners` and `test_case
 
 Note: the test cases aren't completely exhaustive — there are too many variations of illegal moves for creating a totally exhaustive set to be feasible — but for the purposes of evaluating your solution, you don't need to consider anything not covered by the provided test cases.
 
+#### Interactive test runner
+ There is also a test runner for interactive mode. This makes sure interactive mode works as expected in the autograder. You can also run it locally on Mac and Linux (add `-m` when running on Mac).
+  
+  ```
+  sh test_runners/interactive-test-runner.sh
+  
+  ```
 ### Working on GitHub VSCode
 
 GitHub has recently launched a VSCode online coding environment where you can write code and commit your changes using a broswer-based VSCode instance. To begin using this, navigate to your repository, `https://github.com/Box-Internship-Assignment/box-take-home-javascript-<your-github-username>/`, and press `.`. This will launch a browser-based session of VSCode.
